@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "starting apache..."
-echo "you can access apache on localhost:8080"
+echo "you can access apache on localhost:8080 for HTTP"
+echo "or https://localhost:8443 for HTTPS"
 
 docker run \
   -d \
