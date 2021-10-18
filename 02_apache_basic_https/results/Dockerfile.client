@@ -1,0 +1,7 @@
+FROM centos:centos7
+
+RUN \
+  yum update -y curl \
+  && yum install -y curl
+
+ENTRYPOINT /bin/bash
